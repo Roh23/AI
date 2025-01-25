@@ -24,15 +24,20 @@ Provides a unified dashboard to visualize findings, automate actions, and genera
 ****Agents in the System****
 
 **1. Recon Agents**
+
 Perform periodic scans to:
+
 Identify misconfigured resources (e.g., open S3 buckets, excessive IAM roles).
 Detect unpatched vulnerabilities or unused but accessible cloud resources.
 Generate a dynamic attack surface map for each cloud platform.
 
 **2. Log Collector Agents**
 Continuously collect and normalize security-related logs from:
+
 AWS: CloudTrail, VPC Flow Logs, GuardDuty.
+
 Azure: Monitor, Security Center, Activity Logs.
+
 GCP: Cloud Logging, VPC Flow Logs, Security Command Center.
 
 **3. Threat Correlation Agents**
@@ -42,6 +47,7 @@ Detect patterns of suspicious behavior (e.g., privilege escalation, lateral move
 
 **4. Playbook Orchestrator Agents**
 Automate responses such as:
+
 Quarantining compromised resources.
 Blocking malicious IPs or disabling misconfigured roles.
 Rotating keys or tokens for affected users.
@@ -56,17 +62,23 @@ Map findings and responses to compliance standards (e.g., NIST, GDPR, CIS Benchm
 Generate reports with actionable remediation steps to meet compliance requirements.
 
 ****How It Works****
+
 **Periodic Reconnaissance:**
+
 Recon Agents scan the cloud environments at regular intervals to update the attack surface map and detect misconfigurations or vulnerabilities.
 
 **Log Analysis:**
+
 Log Collector Agents pull security logs and normalize them into a unified format for analysis.
 
 **Threat Detection:**
+
 Threat Correlation Agents identify suspicious activities by comparing logs and recon data with threat intelligence feeds and IoCs.
 
 **Behavioral Monitoring:**
+
 Agents analyze patterns for anomalies like:
+
 Unusual login locations or times.
 API call spikes.
 Unauthorized data access attempts.

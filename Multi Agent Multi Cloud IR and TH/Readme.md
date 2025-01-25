@@ -1,7 +1,9 @@
 **Overview**
+
 This project is a collection of Multi-Cloud Threat Hunting and Incident Response (IR) Agents designed to operate across AWS, Azure, and GCP. These agents work collaboratively to perform periodic reconnaissance, identify Indicators of Compromise (IoCs), detect suspicious behaviors and execute automated responses. By leveraging cloud-native APIs and automation, the system ensures proactive security management across multi-cloud environments.
 
 **Key Features**
+
 Periodic Reconnaissance:
 Automatically scans for exposed assets, misconfigurations, and security vulnerabilities.
 Maps the attack surface across AWS, Azure, and GCP environments.
@@ -16,6 +18,7 @@ Centralized Visibility:
 Provides a unified dashboard to visualize findings, automate actions, and generate compliance-ready reports.
 
 ****Agents in the System****
+
 **1. Recon Agents**
 Perform periodic scans to:
 Identify misconfigured resources (e.g., open S3 buckets, excessive IAM roles).

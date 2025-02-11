@@ -15,24 +15,18 @@ This project implements a **Conversational Retrieval-Augmented Generation (RAG) 
 
 ## **Installation & Setup**
 
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/your-repo/conversational-rag-ai.git
-cd conversational-rag-ai
-```
-
-### **2. Install Dependencies**
+### **1. Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3. Set Up Environment Variables**
+### **2. Set Up Environment Variables**
 Create a `.env` file and add your OpenAI API key:
 ```ini
 OPENAI_API_KEY=your-api-key-here
 ```
 
-### **4. Run the Application**
+### **3. Run the Application**
 ```bash
 streamlit run conversational_rag_ai.py
 ```

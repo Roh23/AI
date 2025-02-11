@@ -111,9 +111,6 @@ def get_policy_answer(question: str, qa_chain=None):
 ## **Contributing**
 Contributions are welcome! Feel free to submit **pull requests** or raise **issues** for enhancements.
 
-## **License**
-This project is licensed under the **MIT License**.
-
 ---
 
 🚀 **Get Started Today! Deploy an AI-powered policy assistant for your organization with enhanced privacy controls.**
